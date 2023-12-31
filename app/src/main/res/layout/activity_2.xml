@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--RESULT SHOWN-->
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_margin="60dp"
+        android:text=""
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:hint="Result"
+        android:gravity="center" />
+
+    <!--OVERWEIGHT/UNDERWEIGHT/NORMAL BUTTON -->
+    <Button
+        android:id="@+id/buttonHealthy"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text=""
+        android:hint="Result Range"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:backgroundTint="#828066"
+        />
+
+    <!--EXIT BUTTON-->
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#05ADAB"
+        android:layout_marginTop="30dp"
+        android:text="Exit"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    />
+</LinearLayout>
